@@ -20,7 +20,7 @@ Testbench Name: test.v
 
 APB Interface Block Diagram:
 
-![image](https://user-images.githubusercontent.com/82434808/122651062-0bc74980-d154-11eb-9737-591e928a734e.png)
+//![image](https://user-images.githubusercontent.com/82434808/122651062-0bc74980-d154-11eb-9737-591e928a734e.png)
 
 Operation Of APB
 
@@ -117,8 +117,8 @@ Slave 1 READ-WRITE Operation
 ![image](https://user-images.githubusercontent.com/82434808/122651137-6bbdf000-d154-11eb-919b-14d442e1fb8e.png)
 
 
-Slave 2 READ-WRITE Operation 
-![image](https://user-images.githubusercontent.com/82434808/122651145-75dfee80-d154-11eb-96ba-56867b48a86a.png)
+//Slave 2 READ-WRITE Operation 
+//![image](https://user-images.githubusercontent.com/82434808/122651145-75dfee80-d154-11eb-96ba-56867b48a86a.png)
 
 
 
