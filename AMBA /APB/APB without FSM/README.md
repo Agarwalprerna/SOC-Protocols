@@ -15,8 +15,8 @@ The bridge connects the high performance AHB or ASB bus to the APB bus. So, for 
 6. Start of data transmission is indicated when PENABLE changes from low to high. End of transmission is indicated by PREADY changes from high to low.
 
 
-RTL Module Name: apb_slave.v
-Testbench Name: test.v
+RTL Module Name: apb_slave.sv
+Testbench Name: tb.sv
 
 
  APB Interface Block Diagram:
