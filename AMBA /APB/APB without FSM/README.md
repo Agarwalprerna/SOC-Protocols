@@ -15,14 +15,14 @@ The bridge connects the high performance AHB or ASB bus to the APB bus. So, for 
 6. Start of data transmission is indicated when PENABLE changes from low to high. End of transmission is indicated by PREADY changes from high to low.
 
 
-Top Module Name: apb_protocol.v
+RTL Module Name: apb_slave.v
 Testbench Name: test.v
 
-<!--
+
  APB Interface Block Diagram:
 
-%![image](https://user-images.githubusercontent.com/82434808/122651062-0bc74980-d154-11eb-9737-591e928a734e.png)
--->
+![image](https://user-images.githubusercontent.com/82434808/122651062-0bc74980-d154-11eb-9737-591e928a734e.png)
+
 Operation Of APB
 
 ![image](https://user-images.githubusercontent.com/82434808/122651071-1681de80-d154-11eb-9977-9d46bacd77b9.png)
@@ -108,10 +108,10 @@ Master Write Operation
 Master Read Operation
 ![image](https://user-images.githubusercontent.com/82434808/122651107-4d57f480-d154-11eb-95a3-cbf353f5a5c9.png)
 
-
+<!--
 APB Interface Block Diagram With Slaves:
 ![image](https://user-images.githubusercontent.com/82434808/122651122-59dc4d00-d154-11eb-8c50-13587aab1ac7.png)
-
+-->
 APB Simulation Result with Slaves:
 
 Slave 1 READ-WRITE Operation 
